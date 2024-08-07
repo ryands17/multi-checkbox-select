@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Select Checkboxes</title>
+  </head>
+  <body>
+    <!--
+      The following is a common layout you would see in an email client.
+      When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes inbetween those two checkboxes should be checked.
+     -->
+    <h1 class="title">My Inbox</h1>
+    <div class="inbox">
+      <div class="item">
+        <input type="checkbox" id="checkbox1" />
+        <p>This is an inbox layout.</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox2" />
+        <p>Check one item</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox3" />
+        <p>Hold down your Shift key</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox4" />
+        <p>Check a lower item</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox5" />
+        <p>Everything in between should also be set to checked</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox6" />
+        <p>Try to do it without any libraries</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox7" />
+        <p>Just regular JavaScript</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox8" />
+        <p>Good Luck!</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" id="checkbox9" />
+        <p>Don't forget to tweet your result!</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
